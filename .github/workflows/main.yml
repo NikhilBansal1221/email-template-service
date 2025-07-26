@@ -34,7 +34,7 @@ jobs:
           curl -sSLo sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-5.0.1.3006-linux.zip
           unzip sonar-scanner.zip
           ./sonar-scanner-*/bin/sonar-scanner \
-            -Dsonar.projectKey=YOUR_PROJECT_KEY \
-            -Dsonar.organization=YOUR_ORG \
+            -Dsonar.projectKey=nikhilbansal1221_email-template-service \
+            -Dsonar.organization=nikhilbansal1221 \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=$SONAR_TOKEN
